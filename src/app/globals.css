@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #202733;
+  --foreground: #CEE3E9;
+  --font-manrope: Manrope, sans-serif;
+}
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+.box-shadow {
+  box-shadow: 30px 50px 80px 0px rgba(0, 0, 0, 0.10)
+}
